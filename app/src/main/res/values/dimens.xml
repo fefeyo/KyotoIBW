@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="text_medium">20sp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_xlarge">28sp</dimen>
+
+</resources>

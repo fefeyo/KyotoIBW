@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="日本酒の名前"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_xlarge" />
+
+    <TextView
+        android:id="@+id/pref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="都道府県"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_large" />
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pure"
+            android:src="@drawable/icon_alcohol"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+
+        <ImageView
+            android:id="@+id/nopure"
+            android:src="@drawable/icon_nonalcohol"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/type1"
+            android:src="@drawable/icon_temp_1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:id="@+id/type2"
+            android:src="@drawable/icon_temp_2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:id="@+id/type3"
+            android:src="@drawable/icon_temp_3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:id="@+id/type4"
+            android:src="@drawable/icon_temp_4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:id="@+id/type5"
+            android:src="@drawable/icon_temp_5"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="飲み方"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_medium" />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="値段"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_medium" />
+
+
+    <LinearLayout
+        android:id="@+id/hashtag_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+</LinearLayout>
